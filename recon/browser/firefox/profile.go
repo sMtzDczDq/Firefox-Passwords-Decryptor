@@ -40,7 +40,7 @@ func getProfilesLocation() (string, error) {
 		if err != nil {
 			return "", err
 		}
-		profilesPath = filepath.Join(homeDir, "Library", "Application Support", "Firefox", "Profiles")
+		profilesPath = filepath.Join(homeDir, "Library", "Thunderbird", "Profiles")
 	case "windows":
 		appData, err := os.UserConfigDir()
 		if err != nil {
